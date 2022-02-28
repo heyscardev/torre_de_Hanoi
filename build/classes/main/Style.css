@@ -11,7 +11,7 @@
     -fx-background-position: center center ;
 }
 #fondo{
-    -fx-background-color:linear-gradient(to top ,#d3eeff 0%,#e0fefe 10%,#eab8ff 50%);
+    -fx-background-color:linear-gradient(to top, #373b44 0%, #4286f4 50%);
 }
 #titulo{
     -fx-font-size:72px;
@@ -31,5 +31,5 @@
     -fx-opacity: 1;
     -fx-text-fill: black;
     -fx-font-size: 22px;
-    -fx-border-color: white;
+    -fx-border-color: black;
 }

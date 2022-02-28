@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.paint.Color?>
 
-<AnchorPane fx:id="fondo" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.VistaController">
+<AnchorPane fx:id="fondo" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.VistaController">
     <stylesheets>
         <URL value="@Style.css" />
     </stylesheets>
@@ -64,15 +64,16 @@
                   <Insets bottom="30.0" />
                </padding>
                <effect>
-                  <DropShadow height="56.58" radius="38.91" width="101.06">
-                     <input>
-                        <ColorAdjust brightness="0.6" contrast="0.04" hue="0.02" saturation="-0.24" />
-                     </input>
+                  <DropShadow height="105.755" radius="74.65125" width="194.85">
                      <color>
                         <Color red="0.9605262875556946" green="0.8626949191093445" blue="0.8626949191093445" />
                      </color>
+                     <input>
+                        <ColorAdjust brightness="0.6" contrast="0.04" hue="0.02" saturation="-0.24" />
+                     </input>
                   </DropShadow>
-               </effect></VBox>
+               </effect>
+            </VBox>
             <Label text="A" GridPane.rowIndex="1" />
             <Label text="B" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <Label text="C" GridPane.columnIndex="2" GridPane.rowIndex="1" />

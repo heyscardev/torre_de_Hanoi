@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Torre-de_Hanoy.jar" size="131372" download="eager" />
+    <jar href="Torre-de_Hanoy.jar" size="131399" download="eager" />
     <jar href="lib\AnimateFX.jar" size="123579" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Torre-de_Hanoy" >
