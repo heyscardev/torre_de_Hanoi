@@ -1,0 +1,35 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+#torreA, #torreB,#torreC{
+   
+    -fx-background-image: url(../resources/hanQoi.png);
+    -fx-background-position: center center ;
+}
+#fondo{
+    -fx-background-color:linear-gradient(to top ,#d3eeff 0%,#e0fefe 10%,#eab8ff 50%);
+}
+#titulo{
+    -fx-font-size:72px;
+    -fx-text-fill: #e0fefe;
+    -fx-font-family: 'Algerian';
+    
+}
+#alertas{
+    -fx-font-family: algerian;
+    -fx-text-fill:#eab8ff;
+    -fx-font-size: 22px;
+}
+#btn_disco{
+    -fx-font-family: Algerian;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-opacity: 1;
+    -fx-text-fill: black;
+    -fx-font-size: 22px;
+    -fx-border-color: white;
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+
+<AnchorPane fx:id="fondo" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.VistaController">
+    <stylesheets>
+        <URL value="@Style.css" />
+    </stylesheets>
+   <children>
+      <GridPane hgap="20.0" layoutX="21.0" layoutY="142.0" prefHeight="385.0" prefWidth="762.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="360.0" minHeight="10.0" prefHeight="344.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="20.0" minHeight="0.0" prefHeight="20.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <VBox fx:id="torreA" alignment="BOTTOM_CENTER" prefHeight="335.0" prefWidth="215.0" spacing="10.0">
+               <padding>
+                  <Insets bottom="30.0" />
+               </padding>
+               <effect>
+                  <DropShadow height="56.58" radius="38.91" width="101.06">
+                     <input>
+                        <ColorAdjust brightness="0.6" contrast="0.04" hue="0.02" saturation="-0.24" />
+                     </input>
+                     <color>
+                        <Color red="0.9605262875556946" green="0.8626949191093445" blue="0.8626949191093445" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </VBox>
+            <VBox fx:id="torreB" alignment="BOTTOM_CENTER" prefHeight="329.0" prefWidth="236.0" spacing="10.0" GridPane.columnIndex="1">
+               <padding>
+                  <Insets bottom="30.0" />
+               </padding>
+               <effect>
+                  <DropShadow height="56.58" radius="38.91" width="101.06">
+                     <input>
+                        <ColorAdjust brightness="0.6" contrast="0.04" hue="0.02" saturation="-0.24" />
+                     </input>
+                     <color>
+                        <Color red="0.9605262875556946" green="0.8626949191093445" blue="0.8626949191093445" />
+                     </color>
+                  </DropShadow>
+               </effect></VBox>
+            <VBox fx:id="torreC" alignment="BOTTOM_CENTER" prefHeight="335.0" prefWidth="215.0" spacing="10.0" GridPane.columnIndex="2">
+               <padding>
+                  <Insets bottom="30.0" />
+               </padding>
+               <effect>
+                  <DropShadow height="56.58" radius="38.91" width="101.06">
+                     <input>
+                        <ColorAdjust brightness="0.6" contrast="0.04" hue="0.02" saturation="-0.24" />
+                     </input>
+                     <color>
+                        <Color red="0.9605262875556946" green="0.8626949191093445" blue="0.8626949191093445" />
+                     </color>
+                  </DropShadow>
+               </effect></VBox>
+            <Label text="A" GridPane.rowIndex="1" />
+            <Label text="B" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label text="C" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <Label fx:id="titulo" layoutX="25.0" layoutY="18.0" prefHeight="93.0" prefWidth="581.0" text="Torre de Hanoi">
+         <effect>
+            <InnerShadow>
+               <color>
+                  <Color red="0.8274509906768799" green="0.9333333373069763" blue="1.0" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </Label>
+      <HBox fx:id="mientras" alignment="CENTER" layoutX="251.0" layoutY="111.0" prefHeight="43.0" prefWidth="302.0" />
+      <Label fx:id="alertas" alignment="CENTER" layoutX="259.0" layoutY="546.0" prefHeight="32.0" prefWidth="269.0" text="Label" textAlignment="CENTER" visible="false" />
+   </children>
+</AnchorPane>

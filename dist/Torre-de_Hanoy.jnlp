@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Torre-de_Hanoy.jnlp">
+  <information>
+    <title>Torre-de_Hanoy</title>
+    <vendor>Helitzaith</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Torre-de_Hanoy.jar" size="131372" download="eager" />
+    <jar href="lib\AnimateFX.jar" size="123579" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Torre-de_Hanoy" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="main.Main"  name="Torre-de_Hanoy" />
+  <update check="always"/>
+</jnlp>
